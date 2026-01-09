@@ -74,8 +74,6 @@
 **/*.a
 **/*.out
 **/*.lst
-**/create-this-app
-**/create-this-bsp
 
 # OS / Editor junks
 .vscode/
