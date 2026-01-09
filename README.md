@@ -33,8 +33,10 @@ Quick guide to build and load the SoC lab exercises on DE2/DE2-115.
 
 ## Program and run
 
-1. Connect the board, open Nios II Hardware, and pick the device.
-2. Right-click `lab_{n}` -> Run As or Debug As to load and run.
+1. Connect the board via USB-Blaster.
+2. In Quartus, open Programmer and load the compiled bitstream onto the FPGA.
+3. Open Nios II Hardware and select the detected device.
+4. In Eclipse, right-click `lab_{n}` -> Run As (or Debug As) to download and execute the software.
 
 ## Common issues
 
