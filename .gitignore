@@ -1,0 +1,84 @@
+# Quartus build databases
+**/db/
+**/incremental_db/
+**/output_files/
+**/simulation/
+
+# Reports & logs
+**/*.rpt
+**/*.summary
+**/*.done
+**/*.log
+**/*.qarlog
+**/*.smsg
+**/*.jdi
+
+# Temporary / cache files
+**/*.bak
+**/*.tmp
+**/*.qws
+
+# Generated HDL (regenerate được)
+**/*_generation/
+**/*.qsysc
+**/.qsys_edit
+
+# Generated synthesis & simulation
+**/system/synthesis/
+**/system/simulation/
+**/system.sopcinfo
+
+# Qsys generated docs / symbols
+**/*.bsf
+**/*.html
+
+# Generated HDL wrappers
+**/*_bb.v
+**/*_inst.v
+**/*_inst.vhd
+**/*.cmp
+
+# ModelSim / Simulation
+**/work/
+**/vsim.wlf
+**/modelsim.ini
+**/transcript
+
+# Eclipse workspace metadata
+.metadata/
+.settings/
+
+# Build outputs
+**/software/*/Debug/
+**/software/*/Release/
+**/software/*/obj/
+**/software/*/Makefile
+
+# BSP generated
+**/software/*_bsp/drivers
+**/software/*_bsp/HAL
+**/software/*_bsp/.force_rebuild_all
+**/software/*_bsp/*.c
+**/software/*_bsp/*.h
+**/software/*_bsp/*.x
+**/software/*_bsp/*.mk
+**/software/*_bsp/*.gdb
+**/software/*_bsp/*.html
+
+# Nios II build artifacts
+**/*.elf
+**/*.map
+**/*.o
+**/*.obj
+**/*.objdump
+**/*.a
+**/*.out
+**/*.lst
+**/create-this-app
+**/create-this-bsp
+
+# OS / Editor junks
+.vscode/
+Thumbs.db
+desktop.ini
+*~
