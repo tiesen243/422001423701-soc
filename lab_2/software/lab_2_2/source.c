@@ -5,8 +5,6 @@
  *      Author: tiesen243
  */
 
-
-#include <io.h>
 #include <system.h>
 
 int main() {
