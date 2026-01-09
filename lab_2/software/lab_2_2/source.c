@@ -10,10 +10,14 @@
 #include <system.h>
 
 int main() {
+	volatile int *switch_ptr = (int *) SWITCH_BASE;
+    volatile int *led_ptr    = (int *) LED_BASE;
+
 	int temp;
+	
 	while (1) {
-		temp = IORD(SWITCH_BASE, 0);
-		IOWR(LED_BASE, 0, temp);
+		temp = *switch_ptr;
+		*led_ptr = temp;
 	}
 
 	return 0;
