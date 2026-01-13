@@ -20,10 +20,12 @@
 
 # Generated HDL
 **/*_generation/
+**/.qsys_edit/
 **/*.dpf
+**/*.pin
 **/*.qsf
 **/*.qsysc
-**/.qsys_edit
+**/*.sof
 
 # Generated synthesis & simulation
 **/system/synthesis/
