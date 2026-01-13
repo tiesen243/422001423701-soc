@@ -18,8 +18,10 @@
 **/*.tmp
 **/*.qws
 
-# Generated HDL (regenerate được)
+# Generated HDL
 **/*_generation/
+**/*.dpf
+**/*.qsf
 **/*.qsysc
 **/.qsys_edit
 
