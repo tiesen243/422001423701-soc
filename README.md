@@ -25,11 +25,18 @@ Quick guide to build and load the SoC lab exercises on DE2/DE2-115.
 1. Open Nios II 13.0sp1 Software Build Tools for Eclipse.
 2. File -> Import -> Existing Project into Workspace; select `lab_{n}/software/lab_{n}/` and `lab_{n}/software/lab_{n}_bsp`.
 3. Right-click `lab_{n}_bsp` -> Nios II -> Generate BSP.
-4. Right-click `lab_{n}` -> Nios II -> Nios II Command Shell, then run to generate config files:
-   ```shell
-   ./create-this-app
-   ```
-5. Right-click `lab_{n}` -> Build Project.
+4. Right-click `lab_{n}` -> Build Project.
+
+**Alternative:** You can also use the provided script in a terminal with the Nios II SBT environment:
+
+```bash
+cd lab_{n}/software/lab_{n}_{m}
+./create-this-app
+```
+
+This script will generate the BSP and build the application.
+
+**Note:** After cloning the repository, run the script once to set up the software projects (generate Makefiles, etc.).
 
 ## Program and run
 

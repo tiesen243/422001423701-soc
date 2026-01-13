@@ -57,6 +57,7 @@
 **/software/*/Release/
 **/software/*/obj/
 **/software/*/Makefile
+**/software/*/readme.txt
 
 # BSP generated
 **/software/*_bsp/drivers
