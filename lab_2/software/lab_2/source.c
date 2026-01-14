@@ -5,7 +5,7 @@
  *      Author: tiesen243
  */
 
-#include "system.h"
+#include <system.h>
 
 int main() {
 	volatile int *switch_ptr = (int *) SWITCH_BASE;
