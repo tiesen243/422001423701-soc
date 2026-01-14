@@ -32,6 +32,10 @@
 **/system/simulation/
 **/system.sopcinfo
 
+**/nios_sys/synthesis/
+**/nios_sys/simulation/
+**/nios_sys.sopcinfo
+
 # Qsys generated docs / symbols
 **/*.bsf
 **/*.html

@@ -32,8 +32,8 @@ int main() {
 	int sw;
 
 	while (1) {
-		sw = IORD(SWITCH_0_BASE, 0) & 0x0F;
-		IOWR(LED_0_BASE, 0, HEX_7SEG[sw]);
+		sw = IORD(SWITCH_BASE, 0) & 0x0F;
+		IOWR(LED_BASE, 0, HEX_7SEG[sw]);
 	}
 
 	return 0;

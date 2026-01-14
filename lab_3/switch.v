@@ -12,3 +12,4 @@ module switch(
 		else if (~iChip_select_n && ~iRead_n) oSwitch <= iSwitch;
 	end
 endmodule
+

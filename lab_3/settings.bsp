@@ -2,11 +2,11 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Jan 14, 2026 12:52:57 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1768369977462</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>C:\Users\tiesen\Documents\422001423701-soc\lab_3\software\lab_3_1_bsp</BspGeneratedLocation>
+        <BspGeneratedTimeStamp>Jan 14, 2026 3:41:04 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1768380064524</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>C:\Users\tiesen\Documents\422001423701-soc\lab_3\software\lab_3_3_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
-        <SopcDesignFile>C:\Users\tiesen\Documents\422001423701-soc\lab_3\system.sopcinfo</SopcDesignFile>
+        <SopcDesignFile>C:\Users\tiesen\Documents\422001423701-soc\lab_3\nios_sys.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>
         <Cpu>nios2_qsys_0</Cpu>
         <SchemaVersion>1.9</SchemaVersion>
@@ -875,13 +875,13 @@
                 <attributes>printable</attributes>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>switch_0</slaveDescriptor>
+                <slaveDescriptor>switch</slaveDescriptor>
                 <addressRange>0x00011018 - 0x0001101B</addressRange>
                 <addressSpan>4</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>led_0</slaveDescriptor>
+                <slaveDescriptor>led</slaveDescriptor>
                 <addressRange>0x0001101C - 0x0001101F</addressRange>
                 <addressSpan>4</addressSpan>
                 <attributes/>
