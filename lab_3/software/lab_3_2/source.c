@@ -14,7 +14,7 @@ int main() {
 	short tmp;
 
 	while (1) {
-		tmp = *SW_ptr;
+		tmp = *SW_ptr & 0xFF;
 		*LED_ptr = tmp;
 	}
 

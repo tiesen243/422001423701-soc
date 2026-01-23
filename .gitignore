@@ -60,7 +60,6 @@
 **/software/*/Debug/
 **/software/*/Release/
 **/software/*/obj/
-**/software/*/Makefile
 **/software/*/readme.txt
 
 # BSP generated

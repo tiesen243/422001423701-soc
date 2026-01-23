@@ -1,0 +1,15 @@
+C:/Users/tiesen/Documents/422001423701-soc/lab_6/counter_4_bits_tb.v {1 {vlog -work work -stats=none {C:\Users\tiesen\Documents\422001423701-soc\lab_6\counter_4_bits_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_4_bits_tb
+
+Top level modules:
+	counter_4_bits_tb
+
+} {} {}} C:/Users/tiesen/Documents/422001423701-soc/lab_6/counter_4_bits.v {1 {vlog -work work -stats=none C:/Users/tiesen/Documents/422001423701-soc/lab_6/counter_4_bits.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_4_bits
+
+Top level modules:
+	counter_4_bits
+
+} {} {}}
