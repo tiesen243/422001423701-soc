@@ -1,4 +1,4 @@
-module lab_5(
+module lab_5_1(
 	input CLOCK_50,
 	input [0:0] KEY
 );

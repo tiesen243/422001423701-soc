@@ -73,6 +73,14 @@
    type="SYSTEM_VERILOG"
    library="nios2_qsys_0_instruction_master_translator" />
  <file
+   path="system/testbench/system_tb/simulation/submodules/system_switch.v"
+   type="VERILOG"
+   library="switch" />
+ <file
+   path="system/testbench/system_tb/simulation/submodules/system_hex_0.v"
+   type="VERILOG"
+   library="hex_0" />
+ <file
    path="system/testbench/system_tb/simulation/submodules/system_timer_0.v"
    type="VERILOG"
    library="timer_0" />
@@ -156,6 +164,22 @@
    path="system/testbench/system_tb/simulation/submodules/system_nios2_qsys_0_test_bench.v"
    type="VERILOG"
    library="nios2_qsys_0" />
+ <file
+   path="system/testbench/system_tb/simulation/submodules/verbosity_pkg.sv"
+   type="SYSTEM_VERILOG"
+   library="system_inst_switch_external_connection_bfm" />
+ <file
+   path="system/testbench/system_tb/simulation/submodules/altera_conduit_bfm_0002.sv"
+   type="SYSTEM_VERILOG"
+   library="system_inst_switch_external_connection_bfm" />
+ <file
+   path="system/testbench/system_tb/simulation/submodules/verbosity_pkg.sv"
+   type="SYSTEM_VERILOG"
+   library="system_inst_hex_0_external_connection_bfm" />
+ <file
+   path="system/testbench/system_tb/simulation/submodules/altera_conduit_bfm.sv"
+   type="SYSTEM_VERILOG"
+   library="system_inst_hex_0_external_connection_bfm" />
  <file
    path="system/testbench/system_tb/simulation/submodules/verbosity_pkg.sv"
    type="SYSTEM_VERILOG"

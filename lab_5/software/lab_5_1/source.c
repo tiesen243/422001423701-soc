@@ -1,8 +1,8 @@
 /*
- * lab_5.c
+ * source.c
  *
  *  Created on: Jan 28, 2026
- *      Author: tiesen
+ *      Author: tiesen243
  */
 
 #include <stdio.h>
