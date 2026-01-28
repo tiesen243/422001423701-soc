@@ -32,16 +32,16 @@ void Timer_IQR_Handler(void* isr_context) {
 
   if (switch_state != 1 && switch_state != 2) {
     counter++;
-    if ((counter / 60) == 99 && (counter % 60) == 59) counter = 0;
+    if ((counter / 60) == 59 && (counter % 60) == 59) counter = 0;
   }
 
   if (button_state && !prev_button_state) {
     if (switch_state == 1) {
       counter++;
-      if ((counter / 60) == 99 && (counter % 60) == 59) counter = 0;
+      if ((counter / 60) == 59 && (counter % 60) == 59) counter = 0;
     } else if (switch_state == 2) {
       counter += 60;
-      if ((counter / 60) > 99) counter = counter % 60;
+      if ((counter / 60) > 59) counter = counter % 60;
     }
   }
   prev_button_state = button_state;
@@ -49,7 +49,7 @@ void Timer_IQR_Handler(void* isr_context) {
   printf("%d seconds\n", counter);
 
   unsigned int seconds = counter % 60;
-  unsigned int minutes = (counter / 60) % 100;
+  unsigned int minutes = counter / 60;
 
   unsigned int sec_ones = seconds % 10;
   unsigned int sec_tens = seconds / 10;

@@ -27,12 +27,12 @@ const int HEX_7SEG[16] = {
 
 void Timer_IQR_Handler(void* isr_context) {
 	counter++;
-  if ((counter / 60) == 99 && (counter % 60) == 59) counter = 0;
+  if ((counter / 60) == 59 && (counter % 60) == 59) counter = 0;
 
 	printf("%d seconds\n", counter);
 
 	unsigned int seconds = counter % 60;
-	unsigned int minutes = (counter / 60) % 100;
+	unsigned int minutes = counter / 60;
 
 	unsigned int sec_ones = seconds % 10;
 	unsigned int sec_tens = seconds / 10;
