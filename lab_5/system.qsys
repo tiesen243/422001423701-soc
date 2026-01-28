@@ -116,11 +116,11 @@
          type = "int";
       }
    }
-   element hex_5.s1
+   element hex_0.s1
    {
       datum baseAddress
       {
-         value = "69856";
+         value = "69872";
          type = "String";
       }
    }
@@ -132,43 +132,11 @@
          type = "String";
       }
    }
-   element hex_3.s1
-   {
-      datum baseAddress
-      {
-         value = "69808";
-         type = "String";
-      }
-   }
    element hex_1.s1
    {
       datum baseAddress
       {
          value = "69856";
-         type = "String";
-      }
-   }
-   element switch.s1
-   {
-      datum baseAddress
-      {
-         value = "69824";
-         type = "String";
-      }
-   }
-   element onchip_memory2_0.s1
-   {
-      datum baseAddress
-      {
-         value = "32768";
-         type = "String";
-      }
-   }
-   element button.s1
-   {
-      datum baseAddress
-      {
-         value = "69792";
          type = "String";
       }
    }
@@ -180,6 +148,14 @@
          type = "String";
       }
    }
+   element switch.s1
+   {
+      datum baseAddress
+      {
+         value = "69824";
+         type = "String";
+      }
+   }
    element timer_0.s1
    {
       datum baseAddress
@@ -188,11 +164,35 @@
          type = "String";
       }
    }
-   element hex_0.s1
+   element button.s1
    {
       datum baseAddress
       {
-         value = "69872";
+         value = "69792";
+         type = "String";
+      }
+   }
+   element onchip_memory2_0.s1
+   {
+      datum baseAddress
+      {
+         value = "32768";
+         type = "String";
+      }
+   }
+   element hex_5.s1
+   {
+      datum baseAddress
+      {
+         value = "69856";
+         type = "String";
+      }
+   }
+   element hex_3.s1
+   {
+      datum baseAddress
+      {
+         value = "69808";
          type = "String";
       }
    }
@@ -227,7 +227,7 @@
  <parameter name="projectName" value="lab_5.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1769584489117" />
+ <parameter name="timeStamp" value="1769585160416" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk" internal="clk_0.clk_in" type="clock" dir="end" />
