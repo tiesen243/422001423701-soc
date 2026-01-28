@@ -28,8 +28,7 @@
 **/*.sof
 
 # Generated synthesis & simulation
-**/system/synthesis/
-**/system/simulation/
+**/system/
 **/system.sopcinfo
 
 **/nios_sys/synthesis/
