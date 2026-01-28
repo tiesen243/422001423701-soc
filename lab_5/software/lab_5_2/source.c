@@ -10,7 +10,7 @@
 #include "altera_avalon_timer_regs.h"
 #include "sys/alt_irq.h"
 
-unsigned int counter = 0;
+unsigned int counter = 1859;
 
 const int HEX_7SEG[16] = {
 	0x40, // 0
