@@ -1,9 +1,0 @@
--I
-../clock_bsp
-
--I
-../clock_bsp/HAL/inc
-
--I
-../clock_bsp/drivers/inc
-
