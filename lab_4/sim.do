@@ -1,1 +1,0 @@
-add wave COUNTER4BITS
